@@ -1,0 +1,18 @@
+Primero que nada 
+javascript no es lo mismo que java, es una de las primeras cosas que debes de saber
+
+2-Las aplcaciones web suelen usar html, css y javascript como el centro para ser creadas, html y css no son lenguajes de programacion, son lenguajes de marcado, sin embargo javascript si es un lenguaje de programacion.
+al hacer una pagina web la estructura se dicta usando html, o Hyper Text Markup Languaje (lenguaje de marcado de hiper texto) donde se dictan los simientos de las paginas que conformarán el sitio web, css o cascading style sheets (hojas de estilo en cascada ) dictan el estilo visual que va a seguir la pagina web, esto enlazandose directamente con el archivo html con una etiqueta de este.
+javascript se encarga de la interactividad de las paginas, puede ir desde cosas sencillas como mandar y recibir datos de un servidor, hasta cosas mas complejas como aplicaciones completas corriendo dentro de una pagina, de igual manera que css, javascript se enlaza directamente al html desde este mismo, haciendo que html sea la base en la mayoria de las paginas web.
+
+Para dar unos ejemplos del funcionamiemto
+en un cuerpo humano, html sería el esqueleto del cuerpo, css seria nuestra apariencia fisica (color de piel, altura complexion etc...) y javascript serian los organos que nos mantienen vivos y funcionales.
+
+o una casa
+html serian los simientos, las paredes y el techo
+css la pintura, adornos y demas cosas decorativas
+y javascript seria la electricidad, el agua, el gas y demas servicios que mantienen la casa habitable.
+
+la casa seria habitable sin los servicios, pero seria una casa bastante simple y sin funcionamiento completo
+lo mismo sin los organos, seriamos un cuerpo inerte, 
+de igual manera las paginas web, pueden existir sin la necesidad de javascript pero no serian funcionales para muchas cosas.

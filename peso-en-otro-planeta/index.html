@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Tu peso en otro planeta</title>
+    </head>
+    <body>
+        <main>
+            <!-- <h1>TU PESO EN OTRO PLANETA</h1>
+            <p>Tu peso en la tierra es distinto a tu peso en otros planetas</p> -->
+            <script> 
+                var u_name= prompt("¿Como te llamas?")
+                var p_tierra= prompt("Cual es tu peso?")
+                // var p_tierra=77;
+                var g_tierra= 9.8;
+                var g_marte= 3.7;
+                var g_jupiter= 24.8;
+                var p_marte= (p_tierra*g_marte)/g_tierra;
+                var p_jupiter;
+                p_jupiter= (p_tierra*g_jupiter)/g_tierra;
+                // alert("tu peso en marte es de "+p_marte);
+                // alert("Tu peso en jupiter es de: "+p_jupiter)
+                p_marte= parseInt(p_marte);
+                p_jupiter=parseInt(p_jupiter);
+                document.write("Hola "+u_name+" ¿Como estás?<br>¿Sabias que tu peso es distinto segun el planeta en donde estás? <br>Por ejemplo:<br><br>")
+                document.write("Tu peso en la tierra es de "+p_tierra+"kg<br><br>")
+                document.write("Tu peso en marte es de: "+p_marte+"kg <br><br>"); 
+                document.write("Tu peso en jupiter es de: "+p_jupiter+"kg")
+
+            </script>
+        </main>
+    </body>
+    </html>
