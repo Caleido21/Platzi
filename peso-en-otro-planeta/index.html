@@ -7,27 +7,40 @@
     </head>
     <body>
         <main>
-            <!-- <h1>TU PESO EN OTRO PLANETA</h1>
-            <p>Tu peso en la tierra es distinto a tu peso en otros planetas</p> -->
             <script> 
+            do{
                 var u_name= prompt("¿Como te llamas?")
-                var p_tierra= prompt("Cual es tu peso?")
-                // var p_tierra=77;
+                var planeta= prompt("hola "+u_name+"\n¿Sabias que tu peso es distinto según en que planeta estás?\nte voy a mostrar un ejemplo\nElige un planeta:\nintroduce 1 para marte\nIntroduce 2 para Jupiter");
                 var g_tierra= 9.8;
                 var g_marte= 3.7;
                 var g_jupiter= 24.8;
-                var p_marte= (p_tierra*g_marte)/g_tierra;
+                var p_marte;
                 var p_jupiter;
-                p_jupiter= (p_tierra*g_jupiter)/g_tierra;
-                // alert("tu peso en marte es de "+p_marte);
-                // alert("Tu peso en jupiter es de: "+p_jupiter)
-                p_marte= parseInt(p_marte);
-                p_jupiter=parseInt(p_jupiter);
-                document.write("Hola "+u_name+" ¿Como estás?<br>¿Sabias que tu peso es distinto segun el planeta en donde estás? <br>Por ejemplo:<br><br>")
-                document.write("Tu peso en la tierra es de "+p_tierra+"kg<br><br>")
-                document.write("Tu peso en marte es de: "+p_marte+"kg <br><br>"); 
-                document.write("Tu peso en jupiter es de: "+p_jupiter+"kg")
+                var p_final=parseInt(p_final);
+                
+                if(planeta==1)
+                {
+                    var p_tierra= parseInt(prompt("Cual es tu peso en kilogramos?"));
+                    p_final=g_marte*p_tierra/g_tierra;
+                    p_final=parseInt(p_final)
+                    alert("Tu peso en Marte es de "+p_final+" kilos");
+                    var error=0;
+                }
+                else if(planeta==2)
+                {
+                    var p_tierra= parseInt(prompt("Cual es tu peso en kilogramos?"));
+                    p_final=g_jupiter*p_tierra/g_tierra;
+                    p_final=parseInt(p_final)
+                    alert("Tu peso en jupiter es de "+p_final+" kilos");
+                    var error=0;
+                }
+                else
+                {
+                    alert("La opcion elegida es invalida, intenta nuevamente");
+                    var error=1;
 
+                }
+                }while(error==1);
             </script>
         </main>
     </body>
