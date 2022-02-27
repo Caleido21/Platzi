@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas width="300px" height="300px" id="cubo"></canvas>
+    <script>
+        var c= document.getElementById("cubo");
+        var fig= c.getContext("2d");
+        var centro=0;
+
+        function figura(ix,iy,sx,sy,fx,fy)
+        {
+        fig.beginPath();
+        fig.strokeStyle="#378304";
+        fig.moveTo(ix,iy);
+        fig.lineTo(sx,sy);
+        fig.lineTo(fx,fy);
+        fig.stroke();
+        fig.closePath();
+        }
+
+        for(i=0;i<=30;i++)
+        {
+        figura(0,150,150,centro,300,150);
+        figura(150,0,centro,150,150,300);
+        centro=centro+10;
+        }    
+    </script>
+</body>
+</html>
