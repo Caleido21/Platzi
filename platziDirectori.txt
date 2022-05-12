@@ -1,0 +1,25 @@
+drwxrwxr-x  2 luis luis 4.0K abr  9 09:36 diegoDeGranda
+drwxrwxr-x  2 luis luis 4.0K mar 20 16:32 apuntes
+drwxrwxr-x  2 luis luis 4.0K mar 20 16:32 ciclo for
+drwxrwxr-x  2 luis luis 4.0K mar 20 16:32 cubo
+drwxrwxr-x  2 luis luis 4.0K mar 20 16:32 dibujar con las teclas autonomo
+drwxrwxr-x  2 luis luis 4.0K mar 20 16:32 Document_object_model
+drwxrwxr-x  2 luis luis 4.0K mar 20 16:32 eventos y formularios
+drwxrwxr-x  2 luis luis 4.0K mar 20 16:32 freddy
+drwxrwxr-x  2 luis luis 4.0K mar 20 16:32 htmldeverdad
+drwxrwxr-x  2 luis luis 4.0K mar 20 16:32 peso-en-otro-planeta
+drwxrwxr-x  2 luis luis 4.0K mar 20 16:32 practicas
+drwxrwxr-x  2 luis luis 4.0K mar 20 16:32 teclas
+drwxrwxr-x  2 luis luis 4.0K mar 21 10:54 fizzbuzz
+drwxrwxr-x  2 luis luis 4.0K mar 24 16:53 clases y arrays
+drwxrwxr-x  2 luis luis 4.0K mar 27 11:10 villaPlatzi
+drwxrwxr-x  2 luis luis 4.0K mar 27 11:12 villaPlatzi2
+drwxrwxr-x  2 luis luis 4.0K mar 28 21:15 cajeroAutomatico
+drwxrwxr-x  2 luis luis 4.0K mar 29 19:33 servidor
+drwxrwxr-x  2 luis luis 4.0K mar 29 21:34 calculadora
+drwxrwxr-x  2 luis luis 4.0K mar 30 21:31 reloj
+drwxrwxr-x  2 luis luis 4.0K mar 31 20:10 snake
+drwxrwxr-x 54 luis luis 4.0K mar 29 20:20 node_modules
+-rw-rw-r--  1 luis luis   22 may  1 16:30 hola.js
+-rw-rw-r--  1 luis luis  15K mar 29 19:32 package-lock.json
+total 108K

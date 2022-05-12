@@ -1,0 +1,4 @@
+hola amigos mios como están
+
+hoy estoy usando el comando cat como
+editor de texto en la shell

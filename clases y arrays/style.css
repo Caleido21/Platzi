@@ -1,0 +1,11 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+#holi {
+    border: solid 1px black;
+    width: 100vw;
+    height: 10vh;
+}
